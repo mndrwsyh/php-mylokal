@@ -24,7 +24,7 @@
     $_SESSION["user"]["image"] = $target_path;
 }
 
-    $_SESSION["success"] = "User has been updated!";
+    $_SESSION["success"] = "User image has been updated!";
     
     header("Location: /account");
     exit;

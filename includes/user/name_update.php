@@ -12,8 +12,8 @@ $id = $_POST["user_id"];
         "name" => $_SESSION["user"]["name"],
         "id" => $id
     ]);
-    
-$_SESSION["success"] = "User has been updated.";
+
+$_SESSION["success"] = "User name has been updated.";
 header("Location: /account");
 exit;
 
